@@ -1,0 +1,151 @@
+<div align="center">
+<h1><kbd>🧩 JigsawPuzzle</kbd></h1>
+An extension for MIT App Inventor 2.<br>
+The **JigsawPuzzle** extension allows you to create fully functional, professional-grade jigsaw puzzle games within MIT App Inventor, Kodular, and other derivative platforms. It handles the complex logic of image slicing, piece shape generation (Bezier curves), touch interaction, and game state management. Developed by TechHamara using Fast.<br><a href='https://github.com/TechHamara/Th_Free_Extensions' target='_blank'><small><u>Find More Extension</u></small></a><br><a href='https://github.com/TechHamara/Th_Extensions_List/blob/main/LICENSE.md#terms-and-conditions-for-the-extension' target='_blank'><small><u>Terms & Conditions</u></small></a><br><a href='https://buymeacoffee.com/techhamara' target='_blank'><small><u>Find More On BuyMeCoffee Page</u></small></a>
+</div>
+
+## 📝 Specifications
+* **
+📦 **Package:** io.th.jigsawpuzzle
+💾 **Size:** 29.81 KB
+⚙️ **Version:** 1.0
+📱 **Minimum API Level:** 7
+📅 **Updated On:** [date=2026-01-17 timezone="Asia/Calcutta"]
+💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103?u=jewel) <small><mark>v2.8.4</mark></small>
+
+## <kbd>Events:</kbd>
+**JigsawPuzzle** has total 3 events.
+
+### PuzzleCompleted
+Event raised when the puzzle is completed.
+
+### PieceMerged
+Event raised when two pieces are merged. Returns the remaining piece count.
+
+| Parameter | Type
+| - | - |
+| remainingPieces | number
+
+### TimerUpdated
+Event raised every second when the timer is running.
+
+| Parameter | Type
+| - | - |
+| seconds | number
+
+## <kbd>Methods:</kbd>
+**JigsawPuzzle** has total 12 methods.
+
+### Initialize
+Initialize the puzzle view in the specified layout.
+
+| Parameter | Type
+| - | - |
+| layout | component
+
+### StartGame
+Starts the game with the given number of rows and columns.
+
+| Parameter | Type
+| - | - |
+| rows | number
+| columns | number
+
+### Shuffle
+Shuffles and re-scatters all pieces.
+
+### GetPieceCount
+Returns the number of remaining pieces.
+
+* Return type: `number`
+
+### StartTimer
+Starts the game timer.
+
+### StopTimer
+Stops the game timer.
+
+### ResetTimer
+Resets the game timer to zero.
+
+### GetElapsedTime
+Returns the elapsed time in seconds.
+
+* Return type: `number`
+
+### ZoomIn
+Zooms in on the puzzle.
+
+### ZoomOut
+Zooms out of the puzzle.
+
+### SetZoom
+Sets a specific zoom level (0.1 to 5.0).
+
+| Parameter | Type
+| - | - |
+| scale | number
+
+### ResetView
+Resets the view to default position and zoom.
+
+## <kbd>Setters:</kbd>
+**JigsawPuzzle** has total 9 setter properties.
+
+### Image
+Path to the image asset.
+
+* Input type: `text`
+
+### BackgroundColor
+Sets the background color of the puzzle view.
+
+* Input type: `number`
+
+### EmbossThickness
+Sets the thickness of the emboss effect on pieces (1-10).
+
+* Input type: `number`
+
+### BgPatternStyle
+Sets the background pattern style: 0=None, 1=GridLine, 2=PolkaDot, 3=Rhombus.
+
+* Input type: `number`
+* Helper type: `BgPatternType`
+* Helper enums: `None`, `GridLine`, `PolkaDot`, `Rhombus`
+
+### PatternColor
+Sets the color of the background pattern.
+
+* Input type: `number`
+
+### ShowPreview
+Shows/hides a preview of the completed puzzle.
+
+* Input type: `boolean`
+
+### PreviewAlpha
+Sets the transparency of the preview image (0.0 to 1.0).
+
+* Input type: `number`
+
+### PatternSpacing
+Sets the spacing between background pattern elements.
+
+* Input type: `number`
+
+### CutoutStyle
+Sets the piece cutout style: 1=Classic, 2=Boxy, 3=Round.
+
+* Input type: `number`
+* Helper type: `CutoutType`
+* Helper enums: `Classic`, `Boxy`, `Round`
+
+## <kbd>Getter:</kbd>
+**JigsawPuzzle** has total 1 getter property.
+
+### Image
+Path to the image asset.
+
+* Return type: `text`
+
