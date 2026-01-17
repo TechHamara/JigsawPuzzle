@@ -3,6 +3,7 @@ Create professional jigsaw puzzle games in App Inventor. Features realistic piec
 
 ## Demo
 
+<img width="1159" height="1340" alt="blocks (36)" src="https://github.com/user-attachments/assets/491dfbec-4c87-4a34-a191-a758f0ede438" />
 
 ## Blocks
 
