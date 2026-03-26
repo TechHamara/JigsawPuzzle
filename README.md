@@ -5,6 +5,13 @@ Create professional jigsaw puzzle games in App Inventor. Features realistic piec
 
 <img width="1159" height="1340" alt="blocks (36)" src="https://github.com/user-attachments/assets/491dfbec-4c87-4a34-a191-a758f0ede438" />
 
+![Screenshot_2026-03-27-00-31-00-735_appinventor.ai_Techhamara91.jigsaw.jpg](https://github.com/user-attachments/assets/a8393408-8c69-4196-b8ca-5f12e0ea9b45)
+
+![72503bc5-01b0-4a2a-807f-a3759293d074.gif](https://github.com/user-attachments/assets/e7707703-63b9-4237-b90f-45c2eb629772)
+
+![e4e34e74-a695-4dd0-ae17-d62d3f92315a.gif](https://github.com/user-attachments/assets/a452ee81-e577-45c5-a2dc-09520abdedfe)
+
+
 ## Blocks
 
 <img width="312" height="60" alt="PuzzleCompleted_Event" src="https://github.com/user-attachments/assets/fcf16937-35ff-4056-9359-ba878230e0a8" />
