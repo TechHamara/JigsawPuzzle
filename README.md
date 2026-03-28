@@ -1,3 +1,19 @@
+<div align="center">
+<h1><kbd>🧩 JigsawPuzzle</kbd></h1>
+An extension for MIT App Inventor 2.<br>
+The **JigsawPuzzle** extension allows you to create fully functional, professional-grade jigsaw puzzle games within MIT App Inventor, Kodular, and other derivative platforms. It handles the complex logic of image slicing, piece shape generation (Bezier curves), touch interaction, pinch-to-zoom, pan, snap animation, haptic feedback, game timer, and game state management. Developed by TechHamara using Fast.<br><a href='https://github.com/TechHamara/Th_Free_Extensions' target='_blank'><small><u>Find More Extension</u></small></a><br><a href='https://github.com/TechHamara/Th_Extensions_List/blob/main/LICENSE.md#terms-and-conditions-for-the-extension' target='_blank'><small><u>Terms & Conditions</u></small></a><br><a href='https://buymeacoffee.com/techhamara' target='_blank'><small><u>Find More On BuyMeCoffee Page</u></small></a>
+</div>
+
+## 📝 Specifications
+* **
+📦 **Package:** io.th.jigsawpuzzle<br>
+💾 **Size:** 50.69 KB<br>
+⚙️ **Version:** 2.0<br>
+📱 **Minimum API Level:** 7<br>
+📅 **Updated On:** [date=2026-03-28 timezone="Asia/Calcutta"]<br>
+💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103?u=jewel) <small><mark>v2.8.4</mark></small><br>
+
+
 ## Paid Extension 
 **Price** - 5USD💲.
 
@@ -49,3 +65,230 @@ Create professional jigsaw puzzle games in App Inventor. Features realistic piec
 <img width="516" height="30" alt="BgPatternStyle_Set_Property" src="https://github.com/user-attachments/assets/91caeff6-c814-4271-afbf-6f33a5181701" />
 <img width="353" height="30" alt="BackgroundColor_Set_Property" src="https://github.com/user-attachments/assets/c632c985-af8d-431f-a11e-3ddd53d9b722" />
 <img width="328" height="30" alt="ShowPreview_Set_Property" src="https://github.com/user-attachments/assets/d47228c3-1579-481e-8720-cf39362cb3b9" />
+
+<details> <Summary>Documentations</Summary>
+## <kbd>Events:</kbd>
+**JigsawPuzzle** has total 5 events.
+
+### PuzzleCompleted
+Event raised when the puzzle is completed (all pieces joined).
+
+### PieceMerged
+Event raised when two piece groups merge together. Returns the count of remaining piece groups.
+
+| Parameter | Type
+| - | - |
+| remainingPieces | number
+
+### TimerUpdated
+Event raised every second while the timer is running.
+
+| Parameter | Type
+| - | - |
+| seconds | number
+
+### MoveCompleted
+Event raised when a piece is released after dragging. Returns the total number of moves made so far.
+
+| Parameter | Type
+| - | - |
+| moveCount | number
+
+### ErrorOccurred
+Event raised when a recoverable error occurs. Use this for debugging and user feedback.
+
+| Parameter | Type
+| - | - |
+| functionName | text
+| errorMessage | text
+
+## <kbd>Methods:</kbd>
+**JigsawPuzzle** has total 18 methods.
+
+### Initialize
+Initialize the puzzle view in the specified layout. Pieces will be centered on the screen for immediate visibility.
+
+| Parameter | Type
+| - | - |
+| layout | component
+
+### StartGame
+Starts the game with the given number of rows and columns. Pieces are auto-scaled and centered on screen.
+
+| Parameter | Type
+| - | - |
+| rows | number
+| columns | number
+
+### Shuffle
+Shuffles and re-scatters all pieces across the board.
+
+### GetPieceCount
+Returns the number of remaining piece groups on the board.
+
+* Return type: `number`
+
+### StartTimer
+Starts the game timer. TimerUpdated event fires every second.
+
+### StopTimer
+Stops/pauses the game timer.
+
+### ResetTimer
+Resets the game timer to zero without stopping it if running.
+
+### GetElapsedTime
+Returns the elapsed time in seconds since the timer was started.
+
+* Return type: `number`
+
+### ZoomIn
+Zooms in on the puzzle (smooth animation if enabled).
+
+### ZoomOut
+Zooms out of the puzzle (smooth animation if enabled).
+
+### GetZoomLevel
+Returns the current zoom level.
+
+* Return type: `number`
+
+### ResetView
+Resets the view to the auto-fit centered position and zoom.
+
+### GetMoveCount
+Returns the total number of piece moves made by the player.
+
+* Return type: `number`
+
+### ResetMoveCount
+Resets the move counter to zero.
+
+### ShowHint
+Shows a hint by briefly animating one piece towards its correct position, then moving it back.
+
+### SolveAll
+Animates all pieces to their correct solved positions.
+
+### SaveState
+Saves the current game state (piece positions, moves, time) as a JSON string. Use with TinyDB or File to persist.
+
+* Return type: `text`
+
+### RestoreState
+Restores a previously saved game state from a JSON string. The puzzle must be recreated with the same grid size first.
+
+* Return type: `boolean`
+
+| Parameter | Type
+| - | - |
+| json | text
+
+## <kbd>Setters:</kbd>
+**JigsawPuzzle** has total 16 setter properties.
+
+### Image
+Path to the image asset for the puzzle (e.g., 'puzzle.jpg').
+
+* Input type: `text`
+
+### Difficulty
+Starts a game with a preset difficulty: 1=Easy(3x3), 2=Medium(4x4), 3=Hard(5x5), 4=Expert(7x7).
+
+* Input type: `number`
+* Helper type: `DifficultyLevel`
+* Helper enums: `Easy`, `Medium`, `Hard`, `Expert`
+
+### BackgroundColor
+Sets the background color of the puzzle view.
+
+* Input type: `number`
+
+### EmbossThickness
+Sets the thickness of the emboss effect on piece edges (0.5 to 10).
+
+* Input type: `number`
+
+### BgPatternStyle
+Sets the background pattern style: 0=None, 1=GridLine, 2=PolkaDot, 3=Rhombus.
+
+* Input type: `number`
+* Helper type: `BgPatternType`
+* Helper enums: `None`, `GridLine`, `PolkaDot`, `Rhombus`
+
+### PatternColor
+Sets the color of the background pattern.
+
+* Input type: `number`
+
+### PatternSpacing
+Sets the spacing between background pattern elements (minimum 20).
+
+* Input type: `number`
+
+### CutoutStyle
+Sets the piece cutout style: 1=Classic, 2=Boxy, 3=Round.
+
+* Input type: `number`
+* Helper type: `CutoutType`
+* Helper enums: `Classic`, `Boxy`, `Round`
+
+### PieceBorderColor
+Sets the piece border/outline color.
+
+* Input type: `number`
+
+### ShowPreview
+Shows/hides a semi-transparent preview of the completed puzzle image.
+
+* Input type: `boolean`
+
+### PreviewAlpha
+Sets the transparency of the preview image (0.0=invisible to 1.0=fully visible).
+
+* Input type: `number`
+
+### Zoom
+Sets a specific zoom level (0.1 to 8.0).
+
+* Input type: `number`
+
+### SnapAnimationEnabled
+Enables smooth snap animation when pieces merge together.
+
+* Input type: `boolean`
+
+### HapticFeedbackEnabled
+Enables haptic vibration feedback on piece pickup and merge.
+
+* Input type: `boolean`
+
+### CompletionAnimationEnabled
+Enables celebration flash effect and confetti when the puzzle is completed.
+
+* Input type: `boolean`
+
+### RotationEnabled
+Enables double-tap to rotate pieces by 90 degrees.
+
+* Input type: `boolean`
+
+## <kbd>Getters:</kbd>
+**JigsawPuzzle** has total 3 getter properties.
+
+### Image
+Path to the image asset for the puzzle (e.g., 'puzzle.jpg').
+
+* Return type: `text`
+
+### PieceBorderColor
+Sets the piece border/outline color.
+
+* Return type: `number`
+
+### RotationEnabled
+Enables double-tap to rotate pieces by 90 degrees.
+
+* Return type: `boolean`
+
+</details>
