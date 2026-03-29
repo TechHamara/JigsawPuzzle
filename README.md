@@ -34,39 +34,60 @@ Create professional jigsaw puzzle games in App Inventor. Features realistic piec
 
 ## Blocks
 
-<img width="312" height="60" alt="PuzzleCompleted_Event" src="https://github.com/user-attachments/assets/fcf16937-35ff-4056-9359-ba878230e0a8" />
-<img width="283" height="85" alt="PieceMerged_Event" src="https://github.com/user-attachments/assets/87665d76-fd70-406e-9dc2-734cf545b5f7" />
-<img width="290" height="85" alt="TimerUpdated_Event" src="https://github.com/user-attachments/assets/7a74b66b-3aee-4514-a9b7-fc92f6bf3d6e" />
+<img width="283" height="85" alt="PieceMerged_Event" src="https://github.com/user-attachments/assets/817bae34-bef4-4f88-88af-eccd5ae444e8" />
+<img width="304" height="85" alt="MoveCompleted_Event" src="https://github.com/user-attachments/assets/5ccb96ee-75c2-407f-a6c8-0deae87c4f3f" />
+<img width="290" height="85" alt="ErrorOccurred_Event" src="https://github.com/user-attachments/assets/6e733a57-2808-4211-8782-7b964f30e6ea" />
+<img width="290" height="85" alt="TimerUpdated_Event" src="https://github.com/user-attachments/assets/99f322d4-be30-403a-9f20-dfddfc6a839d" />
+<img width="312" height="60" alt="PuzzleCompleted_Event" src="https://github.com/user-attachments/assets/41caafb3-fcf3-45f8-a60e-3992c5a51683" />
+
 
 -----
 
-<img width="247" height="55" alt="Initialize_Method" src="https://github.com/user-attachments/assets/ebf89bfd-ebff-4658-bba0-aa5a4e41749b" />
-<img width="257" height="30" alt="ResetView_Method" src="https://github.com/user-attachments/assets/65c81c3e-00ab-4e1e-87ca-4bd514315419" />
-<img width="263" height="30" alt="ResetTimer_Method" src="https://github.com/user-attachments/assets/80fa6666-8e94-4b33-a9e9-3495b3a9cb2a" />
-<img width="294" height="26" alt="GetPieceCount_Method" src="https://github.com/user-attachments/assets/563641cf-42c0-4d1a-a121-5b1c36576a4d" />
-<img width="304" height="26" alt="GetElapsedTime_Method" src="https://github.com/user-attachments/assets/7a06a28e-5447-4d19-8bc1-065e5bb0137f" />
-<img width="248" height="30" alt="ZoomOut_Method" src="https://github.com/user-attachments/assets/53da5a35-4316-4b14-9e07-c5facef7c7e1" />
-<img width="235" height="30" alt="ZoomIn_Method" src="https://github.com/user-attachments/assets/3166dba5-54dd-4a00-814a-d067ebd16f15" />
-<img width="255" height="30" alt="StopTimer_Method" src="https://github.com/user-attachments/assets/1d5e49f5-89e4-4a92-9030-dbdb03b7b82d" />
-<img width="255" height="30" alt="StartTimer_Method" src="https://github.com/user-attachments/assets/047b2ddd-3416-4ff6-83a9-9139448457d9" />
-<img width="265" height="80" alt="StartGame_Method" src="https://github.com/user-attachments/assets/8de3c79d-8793-484c-a48a-42cbc72cfaaf" />
-<img width="231" height="30" alt="Shuffle_Method" src="https://github.com/user-attachments/assets/214cdd50-3fe9-411b-82f4-f85a46841228" />
-<img width="253" height="55" alt="SetZoom_Method" src="https://github.com/user-attachments/assets/70226f55-f869-4c3a-915c-88138252ffc2" />
+<img width="247" height="55" alt="Initialize_Method" src="https://github.com/user-attachments/assets/ad9128ef-e25e-46db-835c-5d30efadc27d" />
+<img width="265" height="80" alt="StartGame_Method" src="https://github.com/user-attachments/assets/42865612-6721-42ad-bd5e-dd06349958c8" />
+<img width="288" height="51" alt="RestoreState_Method" src="https://github.com/user-attachments/assets/be880072-a9cf-403e-a492-1a747016db27" />
+<img width="231" height="30" alt="Shuffle_Method" src="https://github.com/user-attachments/assets/474264f8-fd20-4b0e-85d2-5fc3764a1405" />
+<img width="249" height="30" alt="ShowHint_Method" src="https://github.com/user-attachments/assets/8bc57e77-ee48-42e2-88b0-c5531dad6efe" />
+<img width="262" height="26" alt="SaveState_Method" src="https://github.com/user-attachments/assets/42cacc16-88cb-4be9-98c8-5f10617b0bc8" />
+<img width="257" height="30" alt="ResetView_Method" src="https://github.com/user-attachments/assets/d26006df-a219-4d64-bba6-eb5910d56ccd" />
+<img width="263" height="30" alt="ResetTimer_Method" src="https://github.com/user-attachments/assets/e01ef027-0868-4f35-a9ff-52c248dbbbef" />
+<img width="300" height="30" alt="ResetMoveCount_Method" src="https://github.com/user-attachments/assets/378b4cac-a3d1-4209-ae05-a94ce9c95883" />
+<img width="290" height="26" alt="GetZoomLevel_Method" src="https://github.com/user-attachments/assets/c787e1f0-253d-4663-9e54-83e01b6d2e51" />
+<img width="294" height="26" alt="GetPieceCount_Method" src="https://github.com/user-attachments/assets/005c30c9-35e0-40f5-b11e-0ad75dce9393" />
+<img width="294" height="26" alt="GetMoveCount_Method" src="https://github.com/user-attachments/assets/3631214e-7d90-4b3a-af7e-d39799d8ebf9" />
+<img width="304" height="26" alt="GetElapsedTime_Method" src="https://github.com/user-attachments/assets/21813caf-bf57-4be6-b8bd-975e4723f17f" />
+<img width="248" height="30" alt="ZoomOut_Method" src="https://github.com/user-attachments/assets/d97432af-db30-4934-8f25-7e190aa5cbd8" />
+<img width="235" height="30" alt="ZoomIn_Method" src="https://github.com/user-attachments/assets/8c5560cc-99b9-48d0-b5d9-1d9ad9359430" />
+<img width="255" height="30" alt="StopTimer_Method" src="https://github.com/user-attachments/assets/21cf0464-59c6-4caa-b31d-2b1715906a9a" />
+<img width="255" height="30" alt="StartTimer_Method" src="https://github.com/user-attachments/assets/f8d74926-9c92-4053-84cf-1cdec76e3477" />
+<img width="238" height="30" alt="SolveAll_Method" src="https://github.com/user-attachments/assets/584c5e13-994e-4f59-9383-45f6cdd1f9c5" />
+
 
 -----
 
-<img width="328" height="30" alt="PreviewAlpha_Set_Property" src="https://github.com/user-attachments/assets/3560e667-5a8d-4933-bda8-68ea3d165ccf" />
-<img width="338" height="30" alt="PatternSpacing_Set_Property" src="https://github.com/user-attachments/assets/fce1d790-b260-4bad-85fa-f166932bba24" />
-<img width="321" height="30" alt="PatternColor_Set_Property" src="https://github.com/user-attachments/assets/b67962bf-dca4-4e13-a88b-378005fe34d9" />
-<img width="278" height="30" alt="Image_Set_Property" src="https://github.com/user-attachments/assets/1795c619-3ede-4839-90ee-37832bfce1df" />
-<img width="219" height="26" alt="Image_Get_Property" src="https://github.com/user-attachments/assets/c9258e57-54f4-4cf9-a136-216fbf73275e" />
-<img width="358" height="30" alt="EmbossThickness_Set_Property" src="https://github.com/user-attachments/assets/659de8fd-97ff-4d39-8a86-21c9b80db859" />
-<img width="485" height="30" alt="CutoutStyle_Set_Property" src="https://github.com/user-attachments/assets/3a49f043-eb8c-4f04-ada2-9fa01d64f343" />
-<img width="516" height="30" alt="BgPatternStyle_Set_Property" src="https://github.com/user-attachments/assets/91caeff6-c814-4271-afbf-6f33a5181701" />
-<img width="353" height="30" alt="BackgroundColor_Set_Property" src="https://github.com/user-attachments/assets/c632c985-af8d-431f-a11e-3ddd53d9b722" />
-<img width="328" height="30" alt="ShowPreview_Set_Property" src="https://github.com/user-attachments/assets/d47228c3-1579-481e-8720-cf39362cb3b9" />
+<img width="287" height="26" alt="RotationEnabled_Get_Property" src="https://github.com/user-attachments/assets/c3269951-3952-43b6-af90-cf256a149344" />
+<img width="328" height="30" alt="PreviewAlpha_Set_Property" src="https://github.com/user-attachments/assets/42b7f361-952c-42e2-af56-9649940282d4" />
+<img width="355" height="30" alt="PieceBorderColor_Set_Property" src="https://github.com/user-attachments/assets/20af3c1c-b47f-4e34-9e44-4f07a80719de" />
+<img width="296" height="26" alt="PieceBorderColor_Get_Property" src="https://github.com/user-attachments/assets/4d9bb210-4f88-4290-b1df-4e77c36ecd69" />
+<img width="338" height="30" alt="PatternSpacing_Set_Property" src="https://github.com/user-attachments/assets/b97439d8-ef6d-4719-8905-f59bd477659c" />
+<img width="321" height="30" alt="PatternColor_Set_Property" src="https://github.com/user-attachments/assets/21a6a079-a07c-4ad9-a41c-983d02c8c35e" />
+<img width="278" height="30" alt="Image_Set_Property" src="https://github.com/user-attachments/assets/caf61e8e-125c-4b86-afcc-613a4b9cc54b" />
+<img width="219" height="26" alt="Image_Get_Property" src="https://github.com/user-attachments/assets/7bfde0f3-efe1-45eb-8781-0e14b5e124df" />
+<img width="398" height="30" alt="HapticFeedbackEnabled_Set_Property" src="https://github.com/user-attachments/assets/5d6027d0-2604-4324-a494-d5658a5bfebe" />
+<img width="358" height="30" alt="EmbossThickness_Set_Property" src="https://github.com/user-attachments/assets/e6166b93-1676-4675-841c-451221f594ee" />
+<img width="463" height="30" alt="Difficulty_Set_Property" src="https://github.com/user-attachments/assets/6ec6ccba-a5cf-461f-9471-2ae30c606170" />
+<img width="485" height="30" alt="CutoutStyle_Set_Property" src="https://github.com/user-attachments/assets/95cdca84-549f-4718-80e5-1f28029f32e9" />
+<img width="433" height="30" alt="CompletionAnimationEnabled_Set_Property" src="https://github.com/user-attachments/assets/25b84a21-a170-4384-93e0-d7e84888217c" />
+<img width="516" height="30" alt="BgPatternStyle_Set_Property" src="https://github.com/user-attachments/assets/2ce8ac11-bb6e-411f-aa83-171c7b364f7f" />
+<img width="353" height="30" alt="BackgroundColor_Set_Property" src="https://github.com/user-attachments/assets/98471dfe-9b0b-49df-ae5c-9cfba8bdf229" />
+<img width="276" height="30" alt="Zoom_Set_Property" src="https://github.com/user-attachments/assets/baa3d1a2-d2e2-445b-ac42-141a69ff58d5" />
+<img width="392" height="30" alt="SnapAnimationEnabled_Set_Property" src="https://github.com/user-attachments/assets/dea7a462-447b-4499-bf75-4a4bfaf1c0d8" />
+<img width="328" height="30" alt="ShowPreview_Set_Property" src="https://github.com/user-attachments/assets/6d16f44c-993c-4f35-a7e3-65d11ef47e21" />
+<img width="347" height="30" alt="RotationEnabled_Set_Property" src="https://github.com/user-attachments/assets/8bf3dfc9-a522-42d7-a001-0c3bdf09e4e4" />
 
-<details> <Summary>Documentations</Summary>
+
+<details><summary>## Documentations</summary>
+
 ## <kbd>Events:</kbd>
 **JigsawPuzzle** has total 5 events.
 
@@ -290,5 +311,4 @@ Sets the piece border/outline color.
 Enables double-tap to rotate pieces by 90 degrees.
 
 * Return type: `boolean`
-
 </details>
